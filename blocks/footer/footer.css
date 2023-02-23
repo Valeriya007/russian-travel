@@ -1,0 +1,31 @@
+.footer {
+  max-width: 1184px;
+  width: calc(100% - 96px);
+  margin: 0 auto;
+  padding-top: 92px;
+  padding-bottom: 24px;
+}
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  width: calc(100% - 96px);
+  }
+}
+/* 768px */
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    width: calc(100% - 48px);
+  }
+}
+/* 320px */
+@media screen and (max-width: 320px) {
+  .footer {
+    max-width: 186px;
+    padding-top: 64px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+    margin: 0;
+  }
+}

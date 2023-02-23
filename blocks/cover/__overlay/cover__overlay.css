@@ -1,0 +1,37 @@
+.cover__overlay {
+  height: 100%;
+  min-height: 740px;
+  width: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+  z-index: 1;
+}
+/* 1024px */
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    height: 100%;
+  min-height: 640px;
+  }
+}
+/* 768px */
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    height: 100%;
+  min-height: 480px;
+  }
+}
+/* 520px */
+@media screen and (max-width: 520px) {
+  .cover__overlay {
+    height: 100%;
+  min-height: 320px;
+  }
+}
+/* 320px */
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    height: 100%;
+  min-height: 200px;
+  }
+}
