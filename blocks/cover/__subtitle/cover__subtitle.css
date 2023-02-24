@@ -7,26 +7,11 @@
   max-width: 360px;
   text-align: center;
   margin: 0 auto;
-  position: absolute;
   z-index: 2;
-  padding-top: 429px;
-}
-/* 1024px */
-@media screen and (max-width: 1024px) {
-  .cover__subtitle {
-    padding-top: 379px;
-  }
-}
-/* 768px */
-@media screen and (max-width: 768px) {
-  .cover__subtitle {
-    padding-top: 299px;
-  }
 }
 /* 520px */
 @media screen and (max-width: 520px) {
   .cover__subtitle {
-    padding-top: 219px;
     font-size: 18px;
     line-height: 1.2;
     max-width: 490px;
@@ -35,7 +20,6 @@
 /* 450px */
 @media screen and (max-width: 450px) {
   .cover__subtitle {
-    padding-top: 199px;
     font-size: 18px;
     line-height: 1.2;
     max-width: 380px;
@@ -44,7 +28,6 @@
 /* 320px */
 @media screen and (max-width: 320px) {
   .cover__subtitle {
-    padding-top: 119px;
     font-size: 14px;
     line-height: 1.2;
     max-width: 288px;
