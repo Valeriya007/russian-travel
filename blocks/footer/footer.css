@@ -4,12 +4,14 @@
   margin: 0 auto;
   padding-top: 92px;
   padding-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 /* 1024px */
 @media screen and (max-width: 1024px) {
   .footer {
     max-width: 928px;
-  width: calc(100% - 96px);
   }
 }
 /* 768px */
@@ -17,6 +19,13 @@
   .footer {
     max-width: 720px;
     width: calc(100% - 48px);
+  }
+}
+/* 620px */
+@media screen and (max-width: 620px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
   }
 }
 /* 320px */

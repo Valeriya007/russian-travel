@@ -1,20 +1,16 @@
 .footer__links {
+  list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 /* 620px */
 @media screen and (max-width: 620px) {
   .footer__links {
-    display: flex;
-    flex-direction: column;
-
-  }
-}
-/* 320px */
-@media screen and (max-width: 320px) {
-  .footer__links {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, auto);
+    gap: 32px;
   }
 }

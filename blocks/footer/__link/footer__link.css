@@ -1,28 +1,24 @@
 .footer__link {
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.1;
   padding-right: 18px;
   color: #fff;
   text-decoration: none;
-  overflow: hidden;
   box-sizing: border-box;
+}
+
+.footer__link:last-child {
+  padding-right: 0;
 }
 
 /* 620px */
 @media screen and (max-width: 620px) {
   .footer__link {
+    padding-right: 0;
     font-size: 24px;
     line-height: 1;
-  margin-bottom: 32px;
   }
 }
-/* 320px */
-@media screen and (max-width: 320px) {
-  .footer__link {
-    font-size: 24px;
-    line-height: 1;
-  margin-bottom: 32px;
-  }
-}
+
