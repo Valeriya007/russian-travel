@@ -4,10 +4,12 @@
   font-size: 14px;
   line-height: 1.1;
   margin: 0;
+  text-align: right;
 }
 /* 620px */
 @media screen and (max-width: 620px) {
   .footer__copyright {
    padding-top: 48px;
+   text-align: left;
   }
 }

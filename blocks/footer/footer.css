@@ -1,8 +1,5 @@
 .footer {
-  padding-top: 92px;
-  padding-bottom: 24px;
-  padding-left: 48px;
-  padding-right: 48px;
+  padding: 92px 48px 24px;
   display: flex;
   justify-content: space-between;
 }
@@ -10,18 +7,14 @@
 /* 768px */
 @media screen and (max-width: 768px) {
   .footer {
-    padding-top: 88px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 88px 24px 24px;
   }
 }
 /* 620px */
 @media screen and (max-width: 620px) {
   .footer {
     flex-direction: column;
-    padding-top: 64px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 64px 16px 24px;
   }
 }
 
