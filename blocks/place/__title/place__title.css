@@ -2,20 +2,21 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.05;
+  line-height: 105%;
   margin: 0;
 }
 /* 768px */
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
-  line-height: 1.09;
   }
 }
 /* 320px */
 @media screen and (max-width: 320px) {
   .place__title {
+    width: 90%;
+    margin: auto;
     font-size: 32px;
-    padding-left: 16px;
+    line-height: 109%;
   }
 }

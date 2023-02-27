@@ -3,12 +3,11 @@
   color: #fff;
   font-weight: 900;
   font-size: 72px;
-  line-height: 1.05;
+  line-height: 105%;
   max-width: 560px;
   text-align: center;
   margin: 0 auto;
   z-index: 1;
-  padding-bottom: 32px;
 }
 
 /* 520px */
@@ -16,7 +15,6 @@
   .cover__title {
    font-size: 62px;
    max-width: 490px;
-   padding-bottom: 18px;
   }
 }
 /* 450px */
@@ -25,14 +23,13 @@
     font-size: 48px;
     max-width: 380px;
     width: calc(100% - 32px);
-    padding-bottom: 16px;
   }
 }
 /* 320px */
 @media screen and (max-width: 320px) {
   .cover__title {
    font-size: 32px;
-   line-height: 1.09;
+   line-height: 109%;
    max-width: 288px;
   }
 }

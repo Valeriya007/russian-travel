@@ -2,9 +2,9 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.63;
+  line-height: 163%;
   margin-top: 0;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
   display: flex;
 }
 .place__paragraph:last-child {

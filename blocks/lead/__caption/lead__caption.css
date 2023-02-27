@@ -2,11 +2,10 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-size: 10px;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 140%;
   margin: 0;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  padding-top: 8px;
 }
 /* 768px */
 @media screen and (max-width: 768px) {

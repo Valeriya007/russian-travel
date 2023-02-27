@@ -19,7 +19,9 @@
 @media screen and (max-width: 768px) {
   .places {
     width: calc(100% - 48px);
-    row-gap: 72px;
+    row-gap: 73px;
+    padding-top: 88px;
+  padding-bottom: 90px;
   }
 }
 /* 320px */
@@ -27,7 +29,7 @@
   .places {
     width: 100%;
     row-gap: 50px;
-    padding-top: 66px;
+    padding-top: 64px;
   padding-bottom: 66px;
   }
 }

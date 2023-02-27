@@ -2,7 +2,7 @@
   font-family: 'Inter', 'Arial', sans-serif;
   font-size: 24px;
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 116%;
   color: #fff;
   text-decoration: none;
 }
@@ -10,5 +10,6 @@
 @media screen and (max-width: 320px) {
   .header__lang-link {
     font-size: 18px;
+    line-height: 111%;
   }
 }
