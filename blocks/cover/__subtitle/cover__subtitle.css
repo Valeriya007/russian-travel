@@ -12,7 +12,8 @@
 /* 520px */
 @media screen and (max-width: 520px) {
   .cover__subtitle {
-    max-width: 490px;
+    max-width: 460px;
+    width: calc(100% - 32px);
   }
 }
 /* 450px */
@@ -26,6 +27,7 @@
   .cover__subtitle {
     font-size: 14px;
     max-width: 288px;
+    width: 100%;
     line-height: 114%;
   }
 }

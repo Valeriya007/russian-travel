@@ -14,10 +14,18 @@
 @media screen and (max-width: 720px) {
   .lead__title {
     max-width: 620px;
+    width: calc(100% - 48px);
     font-size: 60px;
   }
 }
-
+/* 520px */
+@media screen and (max-width: 520px) {
+  .lead__title {
+    max-width: 420px;
+    width: calc(100% - 32px);
+    font-size: 48px;
+  }
+}
 /* 450px */
 @media screen and (max-width: 450px) {
   .lead__title {
