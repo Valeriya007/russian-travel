@@ -9,25 +9,17 @@
   margin: 0 auto;
   z-index: 1;
 }
-/* 520px */
-@media screen and (max-width: 520px) {
+/* 720px */
+@media screen and (max-width: 720px) {
   .cover__subtitle {
-    max-width: 460px;
-    width: calc(100% - 32px);
+    font-size: 16px;
   }
 }
 /* 450px */
 @media screen and (max-width: 450px) {
   .cover__subtitle {
-    max-width: 380px;
-  }
-}
-/* 320px */
-@media screen and (max-width: 320px) {
-  .cover__subtitle {
     font-size: 14px;
-    max-width: 288px;
-    width: 100%;
     line-height: 114%;
+    max-width: 288px;
   }
 }

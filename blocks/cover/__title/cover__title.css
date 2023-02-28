@@ -10,27 +10,18 @@
   z-index: 1;
 }
 
-/* 520px */
-@media screen and (max-width: 520px) {
+/* 720px */
+@media screen and (max-width: 720px) {
   .cover__title {
-   font-size: 62px;
-   max-width: 460px;
-   width: calc(100% - 32px);
+   font-size: 46px;
+   max-width: 420px;
   }
 }
 /* 450px */
 @media screen and (max-width: 450px) {
   .cover__title {
-    font-size: 48px;
-    max-width: 380px;
-  }
-}
-/* 320px */
-@media screen and (max-width: 320px) {
-  .cover__title {
    font-size: 32px;
    line-height: 109%;
    max-width: 288px;
-   width: 100%;
   }
 }

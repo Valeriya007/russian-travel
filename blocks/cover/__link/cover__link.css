@@ -44,16 +44,10 @@
     min-height: 480px;
   }
 }
-/* 520px */
-@media screen and (max-width: 520px) {
-  .cover__link {
-    min-height: 380px;
-  }
-}
 /* 450px */
 @media screen and (max-width: 450px) {
   .cover__link {
-    min-height: 260px;
+    min-height: 280px;
     gap: 16px;
   }
 }
@@ -63,3 +57,4 @@
     min-height: 200px;
   }
 }
+

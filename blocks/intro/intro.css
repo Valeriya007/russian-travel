@@ -1,40 +1,23 @@
 .intro {
-  max-width: 690px;
-  width: 100%;
-  padding-top: 92px;
-  padding-bottom: 92px;
-  padding-left: 148px;
+  padding: 92px 442px 92px 148px;
   display: flex;
   flex-direction: column;
 }
 /* 1024px */
 @media screen and (max-width: 1024px) {
   .intro {
-    padding-left: 48px;
+    padding: 92px 286px 92px 48px;
   }
 }
 /* 768px */
 @media screen and (max-width: 768px) {
   .intro {
-    max-width: 720px;
-    padding-top: 88px;
-    padding-bottom: 88px;
-    padding-left: 24px;
+    padding: 88px 24px;
   }
 }
-/* 767px */
-@media screen and (max-width: 767px) {
+/* 425px */
+@media screen and (max-width: 425px) {
   .intro {
-    width: 90%;
-  }
-}
-/* 320px */
-@media screen and (max-width: 320px) {
-  .intro {
-    max-width: 288px;
-    width: 100%;
-    padding-top: 64px;
-    padding-bottom: 64px;
-    padding-left: 16px;
+    padding: 64px 16px;
   }
 }

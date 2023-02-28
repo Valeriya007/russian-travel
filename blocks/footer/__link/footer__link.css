@@ -7,10 +7,15 @@
   color: #fff;
   text-decoration: none;
   box-sizing: border-box;
+  opacity: 1;
 }
 
 .footer__link:last-child {
   padding-right: 0;
+}
+
+.footer__link:hover {
+  opacity: .8;
 }
 
 /* 620px */

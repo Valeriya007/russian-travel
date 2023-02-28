@@ -8,15 +8,11 @@
 /* 820px */
 @media screen and (max-width: 820px) {
   .place__title {
-    font-size: 58px;
+    font-size: 42px;
+    line-height: 109%;
   }
 }
-/* 768px */
-@media screen and (max-width: 768px) {
-  .place__title {
-    font-size: 42px;
-  }
-}/* 560px */
+/* 560px */
 @media screen and (max-width: 560px) {
   .place__title {
     font-size: 36px;
@@ -28,6 +24,5 @@
     width: 90%;
     margin: auto;
     font-size: 32px;
-    line-height: 109%;
   }
 }
